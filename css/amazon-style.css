@@ -1,0 +1,451 @@
+
+@font-face {
+  font-family: 'DINCond-MediumAlt';
+  src: url('https://ixd.invodo.com/amazon-fonts/dincond-mediumalternate-596fba0bb53f0.otf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src: url('https://ixd.invodo.com/amazon-fonts/proxima-nova-thin-596faf922544b.otf');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('https://ixd.invodo.com/amazon-fonts/proxima-nova-regular-596fab7c4dad5.otf');
+}
+
+@font-face {
+    font-family: "futura-pt";
+    font-style: normal;
+    font-weight: 300;
+    src: url("//use.typekit.net/af/75f41e/000000000000000000010096/27/l?subset_id=2&fvd=n3&token=Kmf4wYllOGamaYqlqVjlbrZNBw5CRNUHCVVY4kHxOHyXyNThm1uInbHxtiKLs%2BfTmAS3SMg26Pj%2FKLKeQJaQXwMtcLfYCYcAkKswCY8mCar6UbeShOw2nT5l0DCCLRFXD9DFXTsiIgBL9TXEyrXHdw%3D%3D") format("woff2"),url("//use.typekit.net/af/75f41e/000000000000000000010096/27/d?subset_id=2&fvd=n3&token=Kmf4wYllOGamaYqlqVjlbrZNBw5CRNUHCVVY4kHxOHyXyNThm1uInbHxtiKLs%2BfTmAS3SMg26Pj%2FKLKeQJaQXwMtcLfYCYcAkKswCY8mCar6UbeShOw2nT5l0DCCLRFXD9DFXTsiIgBL9TXEyrXHdw%3D%3D") format("woff"),url("//use.typekit.net/af/75f41e/000000000000000000010096/27/a?subset_id=2&fvd=n3&token=Kmf4wYllOGamaYqlqVjlbrZNBw5CRNUHCVVY4kHxOHyXyNThm1uInbHxtiKLs%2BfTmAS3SMg26Pj%2FKLKeQJaQXwMtcLfYCYcAkKswCY8mCar6UbeShOw2nT5l0DCCLRFXD9DFXTsiIgBL9TXEyrXHdw%3D%3D") format("opentype")
+}
+
+body {
+  margin: 2.5% 10%;
+}
+
+nav {
+  margin: 3%;
+}
+
+nav img {
+  width: 15%;
+  margin-left: 2%;
+}
+
+/*#hero,*/
+/*#video-reel,*/
+#infographic {
+  width: 100%;
+  background-color: lightgray;
+  height: 500px;
+  text-align: center;
+}
+
+#video-reel {
+ overflow: hidden;
+ width: 100%;
+ height: 450px;
+}
+
+video {
+  margin-top: -60px;
+}
+
+/*#hero-headline,*/
+/*#video-headline,*/
+#info-headline,
+#form-area h1 {
+  padding-top: 150px;
+}
+
+/*#hero h1,*/
+/*#video-headline h1,*/
+#info-headline,
+#form-area h1 {
+  color: gray;
+  font-size: 4.0em;
+  font-family: 'DIN Condensed', sans-serif;
+}
+
+#uvp {
+  padding: 50px;
+  text-align: center;
+}
+
+#uvp-statement {
+  width: 65%;
+  margin: 0 auto;
+}
+
+#uvp-statement h1 {
+  font-size: 3.5em;
+  font-family: 'DINCond-MediumAlt', sans-serif;
+}
+
+#uvp-statement p,
+.packages p {
+  font-size: 1.25em;
+  font-family: 'Proxima Nova Thin', sans-serif;
+  line-height: 35px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+#photography,
+#process,
+#pricing,
+#form {
+  padding: 20px 0px;
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+}
+
+
+#photography h1,
+#process > h1,
+#pricing h1,
+#form h1 {
+  font-size: 3.5em;
+  font-family: 'DINCond-MediumAlt', sans-serif;
+  padding-bottom: 20px;
+}
+
+.photo {
+  float: left;
+  width: 32%;
+  text-align: center;
+  background-image: url('../img/TRU-studio-photo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+#middle-photo,
+#video-package {
+  margin: 0 2%;
+}
+
+.photo h3 {
+  color: gray;
+  font-size: 2.0em;
+  font-family: 'DINCond-MediumAlt';
+  padding-top: 75px;
+}
+
+.packages {
+  float: left;
+  width: 32%;
+  height: 350px;
+  text-align: left;
+}
+
+.packages h3 {
+  font-size: 3.0em;
+  font-family: 'DINCond-MediumAlt';
+}
+
+a {
+  color: black;
+  font-family: 'Proxima Nova Regular', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+footer {
+  background-color: #f7f7f7;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 70px;
+}
+
+footer p {
+  font-family: 'Proxima Nova Thin', sans-serif;
+  color: lightgray;
+}
+
+#form-area {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+
+/* All Global Forms
+   ========================================================================== */
+
+.site-page.one-column form{
+    max-width:700px;
+    float:none;
+    margin:0 auto;
+}
+
+/* Form Field */
+body .hs-form-field {}
+
+/* Descriptions */
+body .hs-field-desc {}
+
+/* Labels */
+body label {
+    font-size: 16px;
+    line-height: normal;
+    color: #050000;
+    margin: 0 0 3px 0;
+    display: block;
+    font-family: 'Proxima Nova Thin', sans-serif;
+}
+
+body .hs-form-field > label {}
+
+/* One Line Inputs */
+body input[type="text"],
+body input[type="password"],
+body input[type="datetime"],
+body input[type="datetime-local"],
+body input[type="date"],
+body input[type="month"],
+body input[type="time"],
+body input[type="week"],
+body input[type="number"],
+body input[type="email"],
+body input[type="url"],
+body input[type="search"],
+body input[type="tel"],
+body input[type="color"],
+body input[type="file"],
+body textarea,
+body select {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-family: 'Proxima Nova Thin', sans-serif;
+    font-size: 1em;
+    line-height: normal;
+    border-radius: 2px;
+    max-width: 700px;
+    max-width: 100%;
+    display: block;
+    font-weight: 100;
+    color: #050000;
+}
+
+.field.hs-form-field {
+    margin-bottom: 20px;
+}
+
+.field.hs-form-field span {
+    font-family: 'Proxima Nova Thin', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+}
+
+input.hs-button.primary.large {
+  border: 3px solid #414141;
+  border-radius: 0px;
+  color: #414141;
+  background-color: white;
+  font-family: "futura-pt";
+  font-size: 1.2em;
+  background-image: none !important;
+  text-shadow: none !important;
+  text-transform: uppercase;
+  height: 35px;
+  width: 125px;
+}
+
+input.hs-button.primary.large:hover {
+  color: white;
+  background-color: black;
+}
+
+.hs-input {
+  max-width: 100% !important;
+}
+
+.submitted-message {
+  font-family: 'Proxima Nova Thin', sans-serif;
+  font-size: 1.25em;
+  color: black;
+}
+
+.hs-error-msgs.inputs-list li label {
+    color: #fff;
+    padding: 5px 15px 3px 25px;
+    font-size: 13px;
+    font-family: 'Proxima Nova Regular', sans-serif;
+    border-radius: 2px;
+    margin: 12px 0;
+    line-height: 23px;
+    margin-bottom: .5em;
+    display: inline-block;
+    background: #cc3b3b url(//cdn2.hubspot.net/hubfs/2788232/Invodo%20Mar2017/images/icon_close_7_light.png) no-repeat 9px 50%;
+}
+.hs-input.invalid.error {
+    border: 1px solid #e99292;
+}
+
+body input[type="text"]:focus,
+body input[type="password"]:focus,
+body input[type="datetime"]:focus,
+body input[type="datetime-local"]:focus,
+body input[type="date"]:focus,
+body input[type="month"]:focus,
+body input[type="time"]:focus,
+body input[type="week"]:focus,
+body input[type="number"]:focus,
+body input[type="email"]:focus,
+body input[type="url"]:focus,
+body input[type="search"]:focus,
+body input[type="tel"]:focus,
+body input[type="color"]:focus,
+body input[type="file"]:focus,
+body textarea:focus,
+body select:focus {
+    background: #fff;
+    -webkit-transition: background .1s ease-in;
+    -moz-transition: background .1s ease-in;
+    -ms-transition: background .1s ease-in;
+    -o-transition: background .1s ease-in;
+    transition: background .1s ease-in;
+    outline: none;
+}
+
+/* Separate Styles for Multiple Line Inputs */
+body textarea {}
+body textarea:focus {}
+
+/* Separate Styles for Drop Downs */
+body select {}
+body select:focus {}
+
+/* Multiple Selection Inputs */
+body form.hs-form .hs-form-field ul.inputs-list {
+  list-style: none;
+  padding: 0;
+}
+body form.hs-form .hs-form-field ul.inputs-list li input {}
+body input[type="radio"] {}
+body input[type="checkbox"] {}
+
+/* Required */
+body input:focus:required:invalid,
+body textarea:focus:required:invalid,
+body select:focus:required:invalid {}
+
+body input:focus:required:invalid:focus,
+body textarea:focus:required:invalid:focus,
+body select:focus:required:invalid:focus {}
+
+/* Placeholder Text */
+::-webkit-input-placeholder { /* Webkit Browsers */
+   /* color: #555;
+   opacity: 1; */
+}
+:-moz-placeholder { /* Firefox 18- */
+   /* color: #555;
+   opacity: 1; */
+}
+::-moz-placeholder { /* Firefox 19+ */
+   /* color: #555;
+   opacity: 1; */
+}
+:-ms-input-placeholder { /* IE10 */
+   /* color: #555;
+   opacity: 1; */
+}
+
+
+/* Form Module
+   ========================================================================== */
+
+/* Form Field */
+.hs_cos_wrapper_type_form .hs-form-field {}
+
+/* Descriptions */
+.hs_cos_wrapper_type_form .hs-field-desc {}
+
+/* Labels */
+.hs_cos_wrapper_type_form label {}
+.hs_cos_wrapper_type_form .hs-form-field > label {}
+
+/* One Line Inputs */
+.hs_cos_wrapper_type_form input[type="text"],
+.hs_cos_wrapper_type_form input[type="password"],
+.hs_cos_wrapper_type_form input[type="datetime"],
+.hs_cos_wrapper_type_form input[type="datetime-local"],
+.hs_cos_wrapper_type_form input[type="date"],
+.hs_cos_wrapper_type_form input[type="month"],
+.hs_cos_wrapper_type_form input[type="time"],
+.hs_cos_wrapper_type_form input[type="week"],
+.hs_cos_wrapper_type_form input[type="number"],
+.hs_cos_wrapper_type_form input[type="email"],
+.hs_cos_wrapper_type_form input[type="url"],
+.hs_cos_wrapper_type_form input[type="search"],
+.hs_cos_wrapper_type_form input[type="tel"],
+.hs_cos_wrapper_type_form input[type="color"],
+.hs_cos_wrapper_type_form input[type="file"],
+.hs_cos_wrapper_type_form textarea,
+.hs_cos_wrapper_type_form select {}
+
+.hs_cos_wrapper_type_form input[type="text"]:focus,
+.hs_cos_wrapper_type_form input[type="password"]:focus,
+.hs_cos_wrapper_type_form input[type="datetime"]:focus,
+.hs_cos_wrapper_type_form input[type="datetime-local"]:focus,
+.hs_cos_wrapper_type_form input[type="date"]:focus,
+.hs_cos_wrapper_type_form input[type="month"]:focus,
+.hs_cos_wrapper_type_form input[type="time"]:focus,
+.hs_cos_wrapper_type_form input[type="week"]:focus,
+.hs_cos_wrapper_type_form input[type="number"]:focus,
+.hs_cos_wrapper_type_form input[type="email"]:focus,
+.hs_cos_wrapper_type_form input[type="url"]:focus,
+.hs_cos_wrapper_type_form input[type="search"]:focus,
+.hs_cos_wrapper_type_form input[type="tel"]:focus,
+.hs_cos_wrapper_type_form input[type="color"]:focus,
+.hs_cos_wrapper_type_form input[type="file"]:focus,
+.hs_cos_wrapper_type_form textarea:focus,
+.hs_cos_wrapper_type_form select:focus {}
+
+/* Separate Styles for Multiple Line Inputs */
+.hs_cos_wrapper_type_form textarea {}
+.hs_cos_wrapper_type_form textarea:focus {}
+
+/* Separate Styles for Drop Downs */
+.hs_cos_wrapper_type_form select {}
+.hs_cos_wrapper_type_form select:focus {}
+
+/* Multiple Selection Inputs */
+.hs_cos_wrapper_type_form form.hs-form .hs-form-field ul.inputs-list li input {}
+.hs_cos_wrapper_type_form input[type="radio"] {}
+.hs_cos_wrapper_type_form input[type="checkbox"] {}
+
+
+/* MEDIA QUERIES - TABLETS */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* MEDIA QUERIES - MOBILE PHONES */
+
+@media screen and (max-width:667px) {
+
+}
